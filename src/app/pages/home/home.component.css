@@ -1,7 +1,7 @@
 .content-container {
-	margin-top: 100px;
-	padding: 5px 40px;
-
+	margin-top: 10rem;
+	padding: .5rem 4rem;
+	margin-inline: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -10,9 +10,47 @@
 
 .cards-boxes {
 	display: flex;
-	margin-bottom: 30px;
+	margin-bottom: 3rem;
+	
+	
 }
 
 .content-card {
-	margin-left: 20px;
+	margin-left: 2rem;
+
+}
+
+@media (max-width:1141px) {
+html {
+	font-size: 50%;
+}
+}
+
+@media (max-width: 687px) {
+	.carousel {
+		display:flex;
+		align-items: center;
+    justify-content: center;
+    align-content: center;
+
+	}
+
+.card-container {
+	width:10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+}
+
+@media (max-width: 838px) {
+	.cards-boxes {  
+	
+	flex-direction: column;
+	gap: 3rem;
+
+}
+
+
+
 }
